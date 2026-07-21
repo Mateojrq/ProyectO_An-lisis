@@ -1,0 +1,24 @@
+# Datos originales pesados (no subir al repo, se descargan del portal)
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+data/raw/*.pdf
+!data/raw/.gitkeep
+
+# Datos procesados grandes (opcional, descomenta si pesan mucho)
+# data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Power BI (archivos temporales)
+*.pbix.bak
+~$*.pbix
+
+# Sistema
+.DS_Store
+Thumbs.db

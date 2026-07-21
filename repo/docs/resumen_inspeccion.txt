@@ -1,0 +1,107 @@
+
+=== Base de datos de artículos publicados en revistas indexadas.xlsx ===
+Filas: 87,073 | Columnas: 11
+Columnas: ['AÑO', 'TIPO', 'NOMBRE UNIVERSIDAD', 'TIPO FINANCIAMIENTO', 'PROVINCIA UNIVERSIDAD', 'BASE DATOS INDEXADA', 'NOMBRE REVISTA', 'NOMBRE ARTICULO', 'CAMPO AMPLIO', 'CAMPO ESPECIFICO', 'CAMPO DETALLADO']
+Nulos:
+ Series([], dtype: int64)
+
+
+=== Base de datos de becarios agosto 2024.csv ===
+Filas: 65,534 | Columnas: 36
+Columnas: ['CODIGO_IDENTIFICADOR', 'IDENTIFICADOR_BECAS', 'IDENTIFICADOR_BECARIO', 'ETNIA', 'GENERO', 'DISCAPACIDAD', 'TIPO_DISCAPACIDAD', 'PORCENTAJE_DISCAPACIDAD', 'ESTADO_CIVIL', 'FECHA_DE_NACIMIENTO', 'PROVINCIA_NACIMIENTO_HOMOLOGADA', 'CANTON_NACIMIENTO', 'ZONA_SENPLADES_LUGAR_NACIMIENTO', 'PROVINCIA_RESIDENCIA_HOMOLOGADA', 'CANTON_RESIDENCIA', 'PROGRAMA_GENERAL', 'SUBPROGRAMA', 'CONVOCATORIA', 'COMPONENTE', 'DESTINO', 'FINANCIAMIENTO', 'IES_DE_ESTUDIOS_HOMOLOGADA', 'PAIS_DE_ESTUDIOS', 'NIVEL_DE_ESTUDIOS', 'NIVEL_DETALLADO', 'CARRERA', 'AREA_DE_ESTUDIO', 'SUBAREA_DE_ESTUDIO', 'AREA_ESTUDIO_DETALLADO', 'FECHA_DE_SUSCRIPCION', 'FECHA_INICIO_FINANCIAMIENTO', 'FECHA_FIN_FINANCIAMIENTO', 'FECHA_INICIO_ESTUDIOS', 'FECHA_FIN_ESTUDIOS', 'ESTADO_ESTUDIANTE', 'ESTADO_BECA']
+Nulos:
+ DISCAPACIDAD     1
+ESTADO_CIVIL    57
+dtype: int64
+
+
+=== Base de datos de oferta académica de las IES.xlsx ===
+Filas: 20,045 | Columnas: 10
+Columnas: ['NOMBRE_IES', 'TIPO_IES', 'TIPO_FINANCIAMIENTO', 'NOMBRE_CARRERA', 'CAMPO_AMPLIO', 'NIVEL_FORMACIÓN', 'MODALIDAD', 'PROVINCIA', 'CANTÓN', 'ESTADO']
+Nulos:
+ NOMBRE_IES    1
+TIPO_IES      1
+dtype: int64
+
+
+=== Base estadística de docentes UEP 2015-2022.xlsx ===
+Filas: 38,447 | Columnas: 13
+Columnas: ['AÑO', 'CODIGO_IES', 'NOMBRE_IES', 'SEXO', 'DISCAPACIDAD', 'ETNIA', 'NACIONALIDAD', 'NIVEL_FORMACION', 'RELACION_IES', 'TIEMPO_DEDICACION', 'NIVEL', 'GRADO', 'TOTAL']
+Nulos:
+ NACIONALIDAD    2
+dtype: int64
+
+
+=== Base estadística de matrícula UEP 2015-2023.xlsx ===
+Filas: 977,964 | Columnas: 19
+Columnas: ['AÑO', 'NOMBRE_IES', 'TIPO_FINANCIAMIENTO', 'NOMBRE_CARRERA', 'NIVEL_FORMACION', 'MODALIDAD', 'CAMPO_AMPLIO', 'CAMPO_ESPECIFICO', 'CAMPO_DETALLADO', 'TIPO_SEDE', 'PROVINCIA_SEDE', 'CANTON_SEDE', 'SEXO', 'ETNIA', 'PUEBLO_NACIONALIDAD', 'DISCAPACIDAD', 'PROVINCIA_RESIDENCIA', 'CANTON_RESIDENCIA', 'TOTAL']
+Nulos:
+ Series([], dtype: int64)
+
+
+=== Becarios - actualización.csv ===
+Filas: 53,325 | Columnas: 36
+Columnas: ['cod_final', 'ID_becas', 'ID_becario', 'etnia', 'genero', 'discapacidad', 'tipo_discapacidad', 'porcentaje_discapacidad', 'estado_civil', 'fecha_nacimiento', 'provincia_nacimiento', 'canton_nacimiento', 'zona_senplades_lugar_nacimiento', 'provincia_residencia', 'canton_residencia', 'programa_general', 'subprograma', 'convocatoria', 'componente', 'destino', 'financiamiento', 'ies_estudios', 'pais_estudios', 'nivel_estudios', 'nivel_detallado', 'carrera', 'area_estudio', 'subarea_estudio', 'area_estudio_detallado', 'año_suscripcion', 'fecha_inicio_financiamiento', 'fecha_fin_financiamiento', 'fecha_inicio_estudios', 'fecha_fin_estudios', 'estado_estudiante', 'estado_beca']
+Nulos:
+ cod_final                           117
+ID_becas                              3
+ID_becario                            3
+etnia                                 3
+genero                                3
+discapacidad                          3
+tipo_discapacidad                  1069
+porcentaje_discapacidad            1070
+estado_civil                          3
+fecha_nacimiento                      3
+provincia_nacimiento                  3
+canton_nacimiento                     3
+zona_senplades_lugar_nacimiento       3
+provincia_residencia                  3
+canton_residencia                     3
+programa_general                      3
+subprograma                           3
+convocatoria                          3
+componente                            3
+destino                               3
+financiamiento                        3
+ies_estudios                          3
+pais_estudios                         3
+nivel_estudios                        3
+nivel_detallado                       3
+carrera                               3
+area_estudio                          4
+subarea_estudio                       4
+area_estudio_detallado                4
+año_suscripcion                       3
+fecha_inicio_financiamiento           3
+fecha_fin_financiamiento              3
+fecha_inicio_estudios                 3
+fecha_fin_estudios                    3
+estado_estudiante                     3
+estado_beca                           3
+dtype: int64
+
+
+=== Descomposición de la Matrícula - MINEDUC.xlsx ===
+Filas: 286,111 | Columnas: 23
+Columnas: ['Anio_lectivo', 'Zona', 'Provincia', 'Cod_Provincia', 'Canton', 'Cod_Canton', 'Parroquia', 'Cod_Parroquia', 'Nombre_Institucion', 'AMIE', 'Escolarizacion', 'Tipo_Educacion', 'Sostenimiento', 'area', 'Regimen_Escolar', 'Jurisdiccion', 'Modalidad', 'Jornada', 'Acceso_Edificio', 'Total_Estudiantes', 'Promovidos', 'No promovidos', 'Abandono']
+Nulos:
+ Series([], dtype: int64)
+
+
+=== Encuesta_Seguimiento_Graduados_GENERADA.csv ===
+Filas: 350,000 | Columnas: 11
+Columnas: ['AÑO_ENCUESTA', 'NOMBRE_IES', 'NOMBRE_CARRERA', 'PROVINCIA_RESIDENCIA', 'SEXO', 'SITUACION_LABORAL', 'SECTOR', 'INGRESO_MENSUAL_USD', 'MESES_CONSEGUIR_EMPLEO', 'RELACION_EMPLEO_CARRERA', 'SATISFACCION_FORMACION_1A5']
+Nulos:
+ Series([], dtype: int64)
+
+
+=== Registro de Matrícula - MINEDUC.xlsx ===
+Filas: 290,310 | Columnas: 104
+Columnas: ['Clave_primaria', 'Periodo', 'Zona', 'Provincia', 'Cod_Provincia', 'Canton', 'Cod_Canton', 'Parroquia', 'Cod_Parroquia', 'Nombre_Institucion', 'Codigo_Institucion', 'Escolarizacion', 'Tipo_Educacion', 'Sostenimiento', 'Area', 'Regimen_Escolar', 'Jurisdiccion', 'Modallidad', 'Jornada', 'Tenencia_Inmueble_Edificio', 'Acceso_Edificio', 'Docentes_Femenino', 'Docentes_Masculino', 'Total_Docentes', 'Administrativos_Femenino', 'Administrativos_Masculino', 'Total_Administrativos', 'Estudiantes_Femenino', 'Estudiantes_Masculino', 'Total_Estudiantes', 'Ecuatoriana', 'Colombiana', 'Venezolana', 'Peruana', 'Otros_Paises_de_America', 'Otros_Continentes', 'Inicial_Est_edad_adec_nivel', 'Inicial', 'EGB_Est_edad_adec_nivel', 'EGB', 'Bach_Est_edad_adec_nivel', 'Bachillerato', 'Inicial I', 'Inicial II', '1er año Básica', '2do año Básica', '3er año Básica', '4to año Básica', '5to año Básica', '6to año Básica', '7mo año Básica', '8vo año Básica', '9no año Básica', '10mo año Básica', '1er Año Bachillerato', '2do Año Bachillerato', '3er Año Bachillerato', 'Estudiantes_con_discapacidad', 'Estudiantes_sin_discapacidad', 'EMestiza', 'EIndigena', 'EMontubio', 'Eafroecuatoriana', 'EBlanca', 'EKichwa', 'EAchuar', 'EAi Kofan', 'EAwá-Kwaiker', 'EChachi', 'EÉpera', 'EOtra Nacionalidad', 'ESecoya', 'EShiwiar', 'EShuar', 'ESiona', 'ETsáchila', 'EWaorani', 'EZapara', 'Docentes_con_discapacidad', 'Docentes_sin_discapacidad', 'DMestiza', 'DIndigena', 'DMontubio', 'Dafroecuatoriana', 'DBlanca', 'DKichwa', 'DAchuar', 'DAi Kofan', 'DAwá-Kwaiker', 'DChachi', 'DÉpera', 'DOtra Nacionalidad', 'DSecoya', 'DShiwiar', 'DShuar', 'DSiona', 'DTsáchila', 'DWaorani', 'DZapara', 'Aceso_a_Internet', 'Nivel_educativo', 'Contrato', 'Nombramiento', 'Otro_tipo_de_relación_laboral']
+Nulos:
+ Inicial_Est_edad_adec_nivel    133252
+EGB_Est_edad_adec_nivel        133252
+Bach_Est_edad_adec_nivel       133252
+dtype: int64
+
